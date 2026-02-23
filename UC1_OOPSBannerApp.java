@@ -17,7 +17,7 @@
 // effect for each letter in the message. Use print statements for each line
 // instead of a loop.
 
-public class OOPSBannerApp {
+public class UC1_OOPSBannerApp {
     // Main method to run the banner display
     // Print each line of the OOPS banner to create the visual effect for the
     // message "OOPS". Construct each line using string concatenation.
