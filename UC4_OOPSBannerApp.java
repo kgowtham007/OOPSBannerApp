@@ -32,18 +32,31 @@ public class OOPSBannerApp {
 // 3. Use a for-each loop to iterate through the array and print each line
 // Example of OS banner line creation: Firstly populate the array as below
 
-lines[0] = String.join(" ", "  *** ", " ***** ");
-lines[1] = String.join(" ", " ** ** ", " ** ");
-lines[2] = String.join(" ", "** **", "** ");
-lines[3] = String.join(" ", "** **", " ***** ");
-lines[4] = String.join(" ", "** **", "     **");
-lines[5] = String.join(" ", " ** ** ", " ** **");
-lines[6] = String.join(" ", "  *** ", " ***** ");
+        String[] banner = new String[7];
 
-// Then use a for-each loop to print each line
-for (String line : lines) {
-    System.out.println(line);
-}
+        banner[0] = String.join(" ",
+                " ***** ", " ***** ", " ****** ", " ***** ");
 
+        banner[1] = String.join(" ",
+                "*     *", "*     *", "*     *", "*     *");
+
+        banner[2] = String.join(" ",
+                "*     *", "*     *", "*     *", "*");
+
+        banner[3] = String.join(" ",
+                "*     *", "*     *", "****** ", "*");
+
+        banner[4] = String.join(" ",
+                "*     *", "*     *", "*      ", "*  ****");
+
+        banner[5] = String.join(" ",
+                "*     *", "*     *", "*      ", "*     *");
+
+        banner[6] = String.join(" ",
+                " ***** ", " ***** ", "*      ", " ***** ");
+
+        for (String line : banner) {
+            System.out.println(line);
+        }
     }
 }
