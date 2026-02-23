@@ -17,7 +17,7 @@
 // effect for each letter in the message. Use print statements for each line
 // instead of a loop.
 
-public class OOPSBannerApp {
+public class UC2_OOPSBannerApp {
     // Main method to run the banner display
     // Print each line of the OOPS banner to create the visual effect for the
     // message "OOPS". Construct each line using string concatenation.
@@ -26,9 +26,9 @@ public class OOPSBannerApp {
     public static void main(String[] args) {
 
         // UC2 Simple ASCII Banner
-        System.out.println("  *****   *****   ********  ********");
-        System.out.println(" *     * *     *  *         *       ");
-        System.out.println("*       *       * *         *       ");
+        System.out.println("  *****   *****   ********  ******  ");
+        System.out.println(" *     * *     *  *      *  *       ");
+        System.out.println("*       *       * *      *  *       ");
         System.out.println("*       *       * ********  *****   ");
         System.out.println("*       *       * *              *  ");
         System.out.println(" *     * *     *  *        *     *  ");
