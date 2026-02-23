@@ -8,7 +8,7 @@
  * where each line contributes to forming the letters O, O, P, and S in a stylized format.
  * This extends a basic user story by adding visual presentation to a simple message output.
  * </p>
- * * @author Developer
+ * * @author Gowtham
  * @version 2
  */
 
@@ -17,14 +17,13 @@
 // effect for each letter in the message. Use print statements for each line
 // instead of a loop.
 
-public class OOPSBannerApp {
+public class UC4_OOPSBannerApp {
 
     // Main method to run the banner display
     // Print each line of the OOPS banner to create the visual effect for the
     // message "OOPS". Construct each line using string concatenation.
     // Each line corresponds to a row in the banner for the letters O, O, P, S.
     // Using individual print statements for each line.
-    Run | Debug
     public static void main(String[] args) {
 	// Hint:
 // 1. Define a String array with a size equal to the number of lines in the banner
@@ -32,25 +31,26 @@ public class OOPSBannerApp {
 // 3. Use a for-each loop to iterate through the array and print each line
 // Example of OS banner line creation: Firstly populate the array as below
 
+
         String[] banner = new String[7];
 
         banner[0] = String.join(" ",
                 " ***** ", " ***** ", " ****** ", " ***** ");
 
         banner[1] = String.join(" ",
-                "*     *", "*     *", "*     *", "*     *");
+                "*     *", "*     *", "*     *", "*      ");
 
         banner[2] = String.join(" ",
-                "*     *", "*     *", "*     *", "*");
+                "*     *", "*     *", "*     *", "*      ");
 
         banner[3] = String.join(" ",
-                "*     *", "*     *", "****** ", "*");
+                "*     *", "*     *", "****** ", " ***** ");
 
         banner[4] = String.join(" ",
-                "*     *", "*     *", "*      ", "*  ****");
+                "*     *", "*     *", "*      ", "      *");
 
         banner[5] = String.join(" ",
-                "*     *", "*     *", "*      ", "*     *");
+                "*     *", "*     *", "*      ", "      *");
 
         banner[6] = String.join(" ",
                 " ***** ", " ***** ", "*      ", " ***** ");
